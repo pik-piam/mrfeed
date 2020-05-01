@@ -11,6 +11,7 @@
 #' \dontrun{ a <- readSource("Wirsenius_FEED")
 #' }
 #' @importFrom reshape2 melt
+#' @importFrom magclass mbind
 readWirsenius_FEED <- function(){
 
   files <-  c(feed_beef_gr="feed_regression_beef_growing.csv",

@@ -1,4 +1,6 @@
 #' @importFrom magclass setNames
+#' @importFrom madrat toolGetMapping
+#' @import mrcommons
 
 calcResFeedAvailability<-function(){
   

@@ -7,8 +7,7 @@
 #' @return Livestock Production (WM) and corresonding weights as a list of
 #' two MAgPIE objects
 #' @author Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{readFAO}},
-#' \code{\link{readWirseniusSubsystems}}, \code{\link{calcFAOmassbalance}},
+#' @seealso \code{\link{calcOutput}}, \code{\link{readWirseniusSubsystems}},
 #' \code{\link{readSource}}
 #' @examples
 #' 
@@ -16,7 +15,7 @@
 #' calcOutput("LivstSubProduction")
 #' 
 #' }
-#' @importFrom magclass setNames
+#' @importFrom magclass setNames add_dimension
 calcLivstSubProduction <- function() {
   
 #read in data (on wet matter basis)

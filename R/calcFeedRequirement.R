@@ -19,6 +19,7 @@
 #' }
 #' @importFrom luscale rename_dimnames
 #' @importFrom magclass as.magpie
+#' @importFrom magpiesets findset
 #' 
 
 calcFeedRequirement <- function() {

@@ -15,7 +15,7 @@
 #' calcOutput("FoodWasteRecycle")
 #' 
 #' }
-#' @importFrom magclass getNames
+#' @importFrom magclass getNames getNames<- collapseNames
 
 calcFoodWasteRecycle <- function() {
   x    <- readSource("WirseniusPHD")[,,"3_20.Non-eaten food.Non-eaten food",pmatch=TRUE]

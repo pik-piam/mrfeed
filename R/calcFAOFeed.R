@@ -8,12 +8,14 @@
 #' @return FAO feed use and corresponding weights as a list of two MAgPIE
 #' objects
 #' @author Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{calcFAOmassbalance}}
+#' @seealso \code{\link{calcOutput}}
 #' @examples
 #' 
 #' \dontrun{ 
 #' a <- calcFAOFeed()
 #' }
+#' @importFrom madrat calcOutput
+#' @importFrom magclass collapseNames
 #' 
 calcFAOFeed <- function() {
   

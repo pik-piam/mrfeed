@@ -8,8 +8,7 @@
 #' MAgPIE objects
 #' @author Isabelle Weindl
 #' @seealso \code{\link{calcProdFoddr}}, \code{\link{calcOutput}},
-#' \code{\link{calcFAOFodder_aggrFEED}}, \code{\link{readFAO}},
-#' \code{\link{convertFAO}}, \code{\link{readSource}}
+#' \code{\link{calcFAOFodder_aggrFEED}}, \code{\link{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 

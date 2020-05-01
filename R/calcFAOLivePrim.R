@@ -8,8 +8,7 @@
 #' @return FAO Livestock Primary data and corresonding weights as a list of two
 #' MAgPIE objects
 #' @author Ulrich Kreidenweis
-#' @seealso \code{\link{calcOutput}}, \code{\link{readFAO}},
-#' \code{\link{convertFAO}}, \code{\link{readSource}}
+#' @seealso \code{\link{calcOutput}}, \code{\link{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 

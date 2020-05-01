@@ -7,8 +7,7 @@
 #' @return FAO fodder data and corresponding weights as a list of two MAgPIE
 #' objects
 #' @author Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{readFAO}},
-#' \code{\link{convertFAO}}, \code{\link{readSource}}
+#' @seealso \code{\link{calcOutput}}, \code{\link{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 
@@ -17,6 +16,8 @@
 #' 
 #' }
 #' @importFrom utils read.csv
+#' @importFrom madrat readSource toolMappingFile toolAggregate
+
 
 calcFAOFodder_aggrFEED <- function() {
   

@@ -1,66 +1,31 @@
-Package: moinput
+Package: mrfeed
 Type: Package
-Title: Model Operations Input Data Library
-Version: 9.344.4
+Title: MadRat feed data package
+Version: 0.0.1
 Date: 2020-04-30
-Author: Lavinia Baumstark, Anastasis Giannousakis, Jan Philipp Dietrich, Ulrich
-    Kreidenweis, Benjamin Bodirsky, Isabelle Weindl, Mishko Stevanovic, Xiaoxi Wang, Ewerton Araujo, Florian Humpenoeder, Stephen Wirth, Kristine Karstens, Abhijeet Mishra
-Maintainer: Anastasis Giannousakis <giannou@pik-potsdam.de>
-Description: Provides useful functions and a common structure to all the input data required to run models like MAgPIE and REMIND
-    of model input data.
+Authors@R: c(person("Isabelle", "Weindl", email = "weindl@pik-potsdam.de", role = c("aut","cre")),
+             person("Lavinia Baumstark", "Baumstark", email = "baumstark@pik-potsdam.de", role = c("aut")),
+             person("Ulrich", "Kreidenweis", role = "aut"),
+             person("Benjamin Leon", "Bodirsky", email = "bodirsky@pik-potsdam.de", role = "aut"),
+             person("Nele", "Steinmetz", role = "aut"),
+             person("Jan Philipp", "Dietrich", email = "dietrich@pik-potsdam.de", role = "aut"))
+Description: Provides feed related data.
 Depends:
     R(>= 2.10.0),
     magclass(>= 3.17),
     madrat(>= 1.30),
+    mrcommons
 Imports:
-    abind,
-    assertr(>= 2.4),
-    assertthat,
-    compiler,
-    countrycode,
-    data.table,
-    doParallel,
-    dplyr,
-    foreach,
-    lazyeval,
-    lpjclass,
     luscale,
-    lucode,
     magpiesets,
-	mstools,
-    ncdf4,
-	nleqslv,
-	nnls,
-    parallel,
-    plyr,
-    quitte,
-    raster,
-    readr,
-    readxl,
-    reshape,
-    reshape2,
-    rhdf5,
-    rlang,
-    R.utils,
-    SPEI,
-    stringi,
-    stringr,
-    tidyr,
-    tools,
-    utils,
-	mgsub,
-    zoo,
-    WDI,
-	gdata,
-    demystas,
-    alabama
+    reshape2
 License: LGPL-3 | file LICENSE
 LazyData: no
 Encoding: UTF-8
 RoxygenNote: 7.1.0
 ValidationKey: 1717687608
-Suggests: knitr,
+Suggests:
+    knitr,
     testthat,
-    rmarkdown,
-	ggplot2
+    rmarkdown
 VignetteBuilder: knitr

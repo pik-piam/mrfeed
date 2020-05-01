@@ -17,7 +17,7 @@
 #' calcOutput("NutrientDensity")
 #' }
 #' @importFrom luscale rename_dimnames
-#' @importFrom magclass as.magpie
+#' @importFrom magclass as.magpie unwrap
 calcNutrientDensity <- function() {
   
   past<-findset("past")

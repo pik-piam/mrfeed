@@ -14,7 +14,8 @@
 #' a <- readSource("WirseniusSubsystems","meat2egg")
 #' a <- readSource("WirseniusSubsystems","feed_beefsys")
 #' }
-#' 
+#' @importFrom madrat toolSubtypeSelect
+#' @importFrom magclass getRegions<- getYears<-
 
 readWirseniusSubsystems <- function(subtype) {
   

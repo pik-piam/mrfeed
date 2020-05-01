@@ -7,16 +7,14 @@
 #' @return FAO Livestock Production (WM) and corresonding weights as a list of
 #' two MAgPIE objects
 #' @author Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{readFAO}},
-#' \code{\link{convertFAO}}, \code{\link{calcFAOmassbalance}},
-#' \code{\link{readSource}}
+#' @seealso \code{\link{calcOutput}}, \code{\link{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 
 #' calcOutput("LivstProduction")
 #' 
 #' }
-#' 
+#' @importFrom magclass setYears 
 calcLivstProduction <- function() {
 
   prod <- collapseNames(calcOutput("Production",products="kli",attributes="wm",aggregate = F)) 

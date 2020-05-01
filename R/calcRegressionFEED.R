@@ -16,7 +16,7 @@
 #' calcOutput("RegressionFEED")
 #' 
 #' }
-#' @importFrom magclass getNames setNames
+#' @importFrom magclass getNames setNames getYears getRegions new.magpie
 calcRegressionFEED <- function() {
 
   past<-findset("past")

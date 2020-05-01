@@ -12,7 +12,7 @@
 #' \dontrun{ 
 #' a <- calcOutput("HHFoodWaste")
 #' }
-#' 
+#' @importFrom magclass dimSums
 calcHHFoodWaste<-function(){
   past<-findset("past")
   
