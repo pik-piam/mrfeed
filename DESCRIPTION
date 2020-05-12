@@ -1,8 +1,8 @@
 Package: mrfeed
 Type: Package
 Title: MadRat feed data package
-Version: 0.0.1
-Date: 2020-05-01
+Version: 0.0.2
+Date: 2020-05-12
 Authors@R: c(person("Isabelle", "Weindl", email = "weindl@pik-potsdam.de", role = c("aut","cre")),
              person("Lavinia", "Baumstark", email = "baumstark@pik-potsdam.de", role = c("aut")),
              person("Benjamin Leon", "Bodirsky", email = "bodirsky@pik-potsdam.de", role = "aut"),
@@ -23,9 +23,11 @@ License: LGPL-3 | file LICENSE
 LazyData: no
 Encoding: UTF-8
 RoxygenNote: 7.1.0
-ValidationKey: 18383
+ValidationKey: 36788
 Suggests:
     knitr,
     testthat,
     rmarkdown
+URL: https://github.com/pik-piam/mrfeed
+BugReports: https://github.com/pik-piam/mrfeed/issues
 VignetteBuilder: knitr

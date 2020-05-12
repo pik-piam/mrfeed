@@ -1,0 +1,25 @@
+{
+  "title": "mrfeed: MadRat feed data package",
+  "version": "0.0.2",
+  "description": "<p>Provides feed related data.<\/p>",
+  "creators": [
+    {
+      "name": "Weindl, Isabelle"
+    },
+    {
+      "name": "Baumstark, Lavinia"
+    },
+    {
+      "name": "Bodirsky, Benjamin Leon"
+    },
+    {
+      "name": "Steinmetz, Nele"
+    },
+    {
+      "name": "Kreidenweis, Ulrich"
+    },
+    {
+      "name": "Dietrich, Jan Philipp"
+    }
+  ]
+}

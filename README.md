@@ -1,4 +1,6 @@
-# MadRat feed package
+# MadRat feed data package
+#### R package **mrfeed**, version **0.0.2**
+[![Travis build status](https://travis-ci.com/pik-piam/mrfeed.svg?branch=master)](https://travis-ci.com/pik-piam/mrfeed) 
 
 ## Purpose and Functionality
 
@@ -26,17 +28,25 @@ Package updates can be installed using `update.packages` (make sure that the add
 update.packages()
 ```
 
-## Travis CI Integration
-
-[![Travis build status](https://travis-ci.com/pik-piam/mrfeed.svg?branch=master)](https://travis-ci.com/pik-piam/mrfeed)
-
-
 ## Questions / Problems
 
 In case of questions / problems please contact Isabelle Weindl <weindl@pik-potsdam.de>.
 
 ## Citation
 
-```r 
-citation("mrfeed")
+To cite package **mrfeed** in publications use:
+
+Weindl I, Baumstark L, Bodirsky B, Steinmetz N, Kreidenweis U, Dietrich J (2020). _mrfeed: MadRat feed data package_.
+R package version 0.0.2.
+
+A BibTeX entry for LaTeX users is
+
+ ```latex
+@Manual{,
+  title = {mrfeed: MadRat feed data package},
+  author = {Isabelle Weindl and Lavinia Baumstark and Benjamin Leon Bodirsky and Nele Steinmetz and Ulrich Kreidenweis and Jan Philipp Dietrich},
+  year = {2020},
+  note = {R package version 0.0.2},
+}
 ```
+

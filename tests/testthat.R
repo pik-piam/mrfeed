@@ -1,4 +1,4 @@
 library(testthat)
-library(moinput)
+library(mrfeed)
 
-test_check("moinput")
+test_check("mrfeed")
