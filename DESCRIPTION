@@ -28,6 +28,6 @@ Suggests:
     knitr,
     testthat,
     rmarkdown
-URL: https://github.com/pik-piam/mrfeed
+URL: https://github.com/pik-piam/mrfeed, https://doi.org/10.5281/zenodo.3822087
 BugReports: https://github.com/pik-piam/mrfeed/issues
 VignetteBuilder: knitr
