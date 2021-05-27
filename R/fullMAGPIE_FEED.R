@@ -1,4 +1,4 @@
-#' fullMAgPIE_FEED
+#' fullMAGPIE_FEED
 #' 
 #' Function that produces the complete country data set required for the
 #' MAgPIE-FEED model (preprocessing).
@@ -14,10 +14,10 @@
 #' @examples
 #' 
 #' \dontrun{ 
-#' fullMAgPIE_FEED()
+#' fullMAGPIE_FEED()
 #' }
 #' 
-fullMAgPIE_FEED <- function(rev=0) {
+fullMAGPIE_FEED <- function(rev=0) {
 
   mag_years <- findset("time")
   mag_years_past <- findset("past")

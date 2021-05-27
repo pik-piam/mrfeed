@@ -38,9 +38,10 @@ In case of questions / problems please contact Isabelle Weindl <weindl@pik-potsd
 
 To cite package **mrfeed** in publications use:
 
-Weindl I, Baumstark L, Bodirsky B, Steinmetz N, Kreidenweis U, Dietrich J (2021). _mrfeed: MadRat feed data
-package_. doi: 10.5281/zenodo.3822087 (URL: https://doi.org/10.5281/zenodo.3822087), R package version 0.0.4,
-<URL: https://github.com/pik-piam/mrfeed>.
+Weindl I, Baumstark L, Bodirsky B, Steinmetz N, Kreidenweis U, Dietrich J
+(2021). _mrfeed: MadRat feed data package_. doi: 10.5281/zenodo.3822087 (URL:
+https://doi.org/10.5281/zenodo.3822087), R package version 0.0.4, <URL:
+https://github.com/pik-piam/mrfeed>.
 
 A BibTeX entry for LaTeX users is
 
