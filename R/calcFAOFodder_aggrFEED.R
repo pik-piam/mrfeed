@@ -16,14 +16,14 @@
 #' 
 #' }
 #' @importFrom utils read.csv
-#' @importFrom madrat readSource toolMappingFile toolAggregate
+#' @importFrom madrat readSource toolGetMapping toolAggregate
 
 
 calcFAOFodder_aggrFEED <- function() {
   
   data <- readSource("FAO", "Fodder")
   # load sectoral mapping
-  aggregation <- read.csv(toolMappingFile("sectoral","FAOFodder_magpieFEED_mapping.csv")) 
+  aggregation <- toolGetMapping(type = "sectoral", name = "FAOFodder_magpieFEED_mapping.csv")
   # sectoral aggregation of data  
   data_agg <- toolAggregate(data, rel=aggregation, from="ProductionItem", to="MAgPIE_FEED_items", dim=3.1, partrel = TRUE)
     
