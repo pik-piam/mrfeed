@@ -1,8 +1,8 @@
 Package: mrfeed
 Type: Package
 Title: MadRat feed data package
-Version: 0.0.7
-Date: 2021-09-13
+Version: 0.0.8
+Date: 2021-11-24
 Authors@R: c(person("Isabelle", "Weindl", email = "weindl@pik-potsdam.de", role = c("aut","cre")),
              person("Lavinia", "Baumstark", email = "baumstark@pik-potsdam.de", role = c("aut")),
              person("Benjamin Leon", "Bodirsky", email = "bodirsky@pik-potsdam.de", role = "aut"),

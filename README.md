@@ -1,8 +1,8 @@
 # MadRat feed data package
 
-R package **mrfeed**, version **0.0.7**
+R package **mrfeed**, version **0.0.8**
 
-[![CRAN status](https://www.r-pkg.org/badges/version/mrfeed)](https://cran.r-project.org/package=mrfeed) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3822087.svg)](https://doi.org/10.5281/zenodo.3822087)  [![R build status](https://github.com/pik-piam/mrfeed/workflows/check/badge.svg)](https://github.com/pik-piam/mrfeed/actions) [![codecov](https://codecov.io/gh/pik-piam/mrfeed/branch/master/graph/badge.svg)](https://codecov.io/gh/pik-piam/mrfeed) [![r-universe](https://pik-piam.r-universe.dev/badges/mrfeed)](https://pik-piam.r-universe.dev/ui#builds)
+[![CRAN status](https://www.r-pkg.org/badges/version/mrfeed)](https://cran.r-project.org/package=mrfeed) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3822087.svg)](https://doi.org/10.5281/zenodo.3822087) [![R build status](https://github.com/pik-piam/mrfeed/workflows/check/badge.svg)](https://github.com/pik-piam/mrfeed/actions) [![codecov](https://codecov.io/gh/pik-piam/mrfeed/branch/master/graph/badge.svg)](https://codecov.io/gh/pik-piam/mrfeed) [![r-universe](https://pik-piam.r-universe.dev/badges/mrfeed)](https://pik-piam.r-universe.dev/ui#builds)
 
 ## Purpose and Functionality
 
@@ -38,7 +38,7 @@ In case of questions / problems please contact Isabelle Weindl <weindl@pik-potsd
 
 To cite package **mrfeed** in publications use:
 
-Weindl I, Baumstark L, Bodirsky B, Steinmetz N, Kreidenweis U, Dietrich J (2021). _mrfeed: MadRat feed data package_. doi: 10.5281/zenodo.3822087 (URL: https://doi.org/10.5281/zenodo.3822087), R package version 0.0.7, <URL: https://github.com/pik-piam/mrfeed>.
+Weindl I, Baumstark L, Bodirsky B, Steinmetz N, Kreidenweis U, Dietrich J (2021). _mrfeed: MadRat feed data package_. doi: 10.5281/zenodo.3822087 (URL: https://doi.org/10.5281/zenodo.3822087), R package version 0.0.8, <URL: https://github.com/pik-piam/mrfeed>.
 
 A BibTeX entry for LaTeX users is
 
@@ -47,9 +47,8 @@ A BibTeX entry for LaTeX users is
   title = {mrfeed: MadRat feed data package},
   author = {Isabelle Weindl and Lavinia Baumstark and Benjamin Leon Bodirsky and Nele Steinmetz and Ulrich Kreidenweis and Jan Philipp Dietrich},
   year = {2021},
-  note = {R package version 0.0.7},
+  note = {R package version 0.0.8},
   doi = {10.5281/zenodo.3822087},
   url = {https://github.com/pik-piam/mrfeed},
 }
 ```
-
