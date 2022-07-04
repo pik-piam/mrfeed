@@ -43,4 +43,3 @@ readWirsenius_FEED <- function(){
     
   return(output)
 }
-
