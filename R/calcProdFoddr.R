@@ -28,8 +28,3 @@ calcProdFoddr <- function() {
               description="FAO fodder production aggregated to MAgPIE_FEED categories")
   )
 }
-
-
-
-
-
