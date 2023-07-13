@@ -1,8 +1,8 @@
 Package: mrfeed
 Type: Package
 Title: MadRat feed data package
-Version: 0.0.8
-Date: 2021-11-24
+Version: 0.0.9
+Date: 2023-07-13
 Authors@R: c(person("Isabelle", "Weindl", email = "weindl@pik-potsdam.de", role = c("aut","cre")),
              person("Lavinia", "Baumstark", email = "baumstark@pik-potsdam.de", role = c("aut")),
              person("Benjamin Leon", "Bodirsky", email = "bodirsky@pik-potsdam.de", role = "aut"),
@@ -22,7 +22,7 @@ Imports:
 License: LGPL-3 | file LICENSE
 LazyData: no
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Suggests:
     knitr,
     testthat,
