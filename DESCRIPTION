@@ -1,33 +1,37 @@
-Package: mrfeed
 Type: Package
+Package: mrfeed
 Title: MadRat feed data package
 Version: 0.0.9
 Date: 2023-07-13
-Authors@R: c(person("Isabelle", "Weindl", email = "weindl@pik-potsdam.de", role = c("aut","cre")),
-             person("Lavinia", "Baumstark", email = "baumstark@pik-potsdam.de", role = c("aut")),
-             person("Benjamin Leon", "Bodirsky", email = "bodirsky@pik-potsdam.de", role = "aut"),
-             person("Nele", "Steinmetz", role = "aut"),
-             person("Ulrich", "Kreidenweis", role = "aut"),
-             person("Jan Philipp", "Dietrich", email = "dietrich@pik-potsdam.de", role = "aut"))
+Authors@R: c(
+    person("Isabelle", "Weindl", , "weindl@pik-potsdam.de", role = c("aut", "cre")),
+    person("Lavinia", "Baumstark", , "baumstark@pik-potsdam.de", role = "aut"),
+    person("Benjamin Leon", "Bodirsky", , "bodirsky@pik-potsdam.de", role = "aut"),
+    person("Nele", "Steinmetz", role = "aut"),
+    person("Ulrich", "Kreidenweis", role = "aut"),
+    person("Jan Philipp", "Dietrich", , "dietrich@pik-potsdam.de", role = "aut")
+  )
 Description: Provides feed related data.
+License: LGPL-3 | file LICENSE
+URL: https://github.com/pik-piam/mrfeed,
+    https://doi.org/10.5281/zenodo.3822087
+BugReports: https://github.com/pik-piam/mrfeed/issues
 Depends:
-    R(>= 2.10.0),
-    magclass(>= 3.17),
-    madrat(>= 1.30),
+    R (>= 2.10.0),
+    madrat (>= 1.30),
+    magclass (>= 3.17),
     mrcommons
 Imports:
     luscale,
     magpiesets,
     reshape2
-License: LGPL-3 | file LICENSE
-LazyData: no
-Encoding: UTF-8
-RoxygenNote: 7.2.3
 Suggests:
+    covr,
     knitr,
-    testthat,
     rmarkdown,
-    covr
-URL: https://github.com/pik-piam/mrfeed, https://doi.org/10.5281/zenodo.3822087
-BugReports: https://github.com/pik-piam/mrfeed/issues
-VignetteBuilder: knitr
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: no
+RoxygenNote: 7.2.3
