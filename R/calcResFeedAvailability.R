@@ -6,7 +6,8 @@ calcResFeedAvailability<-function(){
   
   past           <- findset("past")
   kres           <- findset("kres")
-  mapping.res    <- toolGetMapping("kcr_kres.csv",type="sectoral")
+  mapping.res    <- toolGetMapping("kcr_kres.csv",type="sectoral",
+                                  where = "mappingfolder")
   dev_state_past <- collapseNames(calcOutput("DevelopmentState",aggregate = F)[,past,"SSP2"])
   
   biomass.kcr  <- collapseNames(calcOutput("ResBiomass",aggregate = FALSE)[,,"ag"][,,"dm"])
