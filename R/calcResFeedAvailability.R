@@ -10,7 +10,7 @@ calcResFeedAvailability<-function(){
                                   where = "mappingfolder")
   dev_state_past <- collapseNames(calcOutput("DevelopmentState",aggregate = F)[,past,"SSP2"])
   
-  biomass.kcr  <- collapseNames(calcOutput("ResBiomass",aggregate = FALSE)[,,"ag"][,,"dm"])
+  biomass.kcr  <- collapseNames(calcOutput("ResBiomass",aggregate = FALSE)[,past,"ag"][,,"dm"])
   biomass.kres <- toolAggregate(biomass.kcr, rel = mapping.res, from = "kcr", to = "kres", dim = 3)[,,kres]
   
   feed <- biomass.kres * (dev_state_past*0.2 + (1-dev_state_past)*0.4)
