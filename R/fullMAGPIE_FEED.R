@@ -21,8 +21,7 @@ fullMAGPIE_FEED <- function(rev = 0) { # nolint
   calcOutput("LivstSubProduction", years = magYearsPast, round = 8, file = "livst_sub_production.cs3",
              aggregate = FALSE)
 
-  calcOutput("LivestockProductivity",   years = magYearsPast, round = 8, file = "livestock_productivity.cs3",
-             future = FALSE, aggregate = FALSE)
+  calcOutput("LivestockProductivityWrapper",   years = magYearsPast, round = 8, file = "livestock_productivity.cs3", future = FALSE, aggregate = FALSE)
   calcOutput("FeedRequirement", years = magYearsPast, round = 8, file = "feed_req.cs3",      aggregate = FALSE)
   calcOutput("NutrientDensity", years = magYearsPast, round = 8, file = "nutrient_dens.cs3", aggregate = FALSE)
 

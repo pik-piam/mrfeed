@@ -22,7 +22,7 @@ readWirseniusPHD <- function() {
       
       regions <- c("items_groups"="items_groups", "East Asia"="EAS", "East Europe"="EER", "Latin America & Carib."="LAC", "North Africa & W. Asia"="NAA", "North America & Oc."="NAO", "South & Central Asia"="SCA", "Sub-Saharan Africa"="AFR", "West Europe" ="WER")
       dimnames(w)[[2]] <- regions
-      w <- as.magpie(w)
+      w <- as.magpie(w, replacement = ".")
       getYears(w) <- "y2000"
       return(w)
 }  
