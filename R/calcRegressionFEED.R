@@ -19,7 +19,7 @@
 #' @importFrom magclass getNames setNames getYears getRegions new.magpie
 calcRegressionFEED <- function() {
 
-  past<-magpiesets::findset("past")
+  past<-findset("past")
   
   en    <- readSource("Wirsenius_FEED")
   yield <- calcOutput("LivestockProductivity", aggregate = F, future=F)[,past,]

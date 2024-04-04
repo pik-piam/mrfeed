@@ -34,7 +34,7 @@ readWirsenius_FEED <- function(){
     # add col with meat type
     x$dummy <- paste(names(files[i]),x$dummy,sep=".")
     # melt data to have them in the long format
-    x <- suppressMessages(reshape2::melt(x,id.vars="dummy"))
+    x <- suppressMessages(melt(x,id.vars="dummy"))
     # transfer into a magpie-object
     data[[i]] <- as.magpie(x, datacol=3, replacement = ".")
   }
