@@ -2,6 +2,8 @@
 #' 
 #' A wrapper for \code{\link{calcLivestockProductivity}}, that sets the dimnames as required by the feedmodel
 #' 
+#' @param future See \code{\link{calcLivestockProductivity}}
+#' 
 #' @return LivestockProductivity data
 #' @author David Hötten
 #' @examples

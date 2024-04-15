@@ -13,7 +13,6 @@
 #' a <- calcOutput("HHFoodWaste")
 #' }
 #' @importFrom magclass dimSums
-#' @importFrom mrcommons FAOmassbalance FoodSupplyPast
 calcHHFoodWaste <- function(){
   mb <- calcOutput("FAOmassbalance", aggregate = FALSE)
   demand <- collapseNames(mb[,,"households"])
