@@ -1,8 +1,8 @@
 Type: Package
 Package: mrfeed
 Title: MadRat feed data package
-Version: 0.0.11
-Date: 2024-04-15
+Version: 0.0.12
+Date: 2026-01-23
 Authors@R: c(
     person("Isabelle", "Weindl", , "weindl@pik-potsdam.de", role = c("aut", "cre")),
     person("Lavinia", "Baumstark", , "baumstark@pik-potsdam.de", role = "aut"),
@@ -34,4 +34,4 @@ VignetteBuilder:
     knitr
 Encoding: UTF-8
 LazyData: no
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3

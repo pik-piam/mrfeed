@@ -14,6 +14,8 @@
 #' }
 #'
 calcFAOLivePrim <- function() {
+  # The following call should not be updated to FAO_online, as it would change
+  # the livestock categories. -- patrickr, 2026-01-23
   x <- readSource("FAO", "LivePrim")
 
   if (any(grepl("+ (Total)", getNames(x, fulldim = TRUE)[[1]], fixed = TRUE))) {
