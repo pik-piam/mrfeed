@@ -9,8 +9,8 @@
 #' @return MAgPIE-FEED data for NutrientDensity and corresonding weights as a
 #' list of two MAgPIE objects
 #' @author Lavinia Baumstark, Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{calcRegressionFEED}},
-#' \code{\link{readSource}}
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link{calcRegressionFEED}},
+#' \code{\link[madrat]{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 

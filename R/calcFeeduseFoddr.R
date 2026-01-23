@@ -7,8 +7,8 @@
 #' @return FAO fodder feed use data and corresponding weights as a list of two
 #' MAgPIE objects
 #' @author Isabelle Weindl
-#' @seealso \code{\link{calcProdFoddr}}, \code{\link{calcOutput}},
-#' \code{\link{calcFAOFodder_aggrFEED}}, \code{\link{readSource}}
+#' @seealso \code{\link{calcProdFoddr}}, \code{\link[madrat]{calcOutput}},
+#' \code{\link{calcFAOFodder_aggrFEED}}, \code{\link[madrat]{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 

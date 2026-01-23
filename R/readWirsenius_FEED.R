@@ -5,7 +5,7 @@
 #' 
 #' @return magpie object of the Wirsenius_FEED data
 #' @author Lavinia Baumstark
-#' @seealso \code{\link{readSource}}
+#' @seealso \code{\link[madrat]{readSource}}
 #' @examples
 #' 
 #' \dontrun{ a <- readSource("Wirsenius_FEED")

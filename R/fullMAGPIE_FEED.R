@@ -6,7 +6,7 @@
 #' @param rev data revision which should be used as input (positive numeric).
 #' @author Isabelle Weindl, Lavinia Baumstark
 #' @seealso
-#' \code{\link{readSource}}, \code{\link{getCalculations}}, \code{\link{calcOutput}}
+#' \code{\link[madrat]{readSource}}, \code{\link[madrat]{getCalculations}}, \code{\link[madrat]{calcOutput}}
 #' @examples
 #' \dontrun{
 #' fullMAGPIE_FEED()

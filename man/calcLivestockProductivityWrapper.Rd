@@ -7,13 +7,13 @@
 calcLivestockProductivityWrapper(future)
 }
 \arguments{
-\item{future}{See \code{\link{calcLivestockProductivity}}}
+\item{future}{See \code{\link[mrcommons]{calcLivestockProductivity}}}
 }
 \value{
 LivestockProductivity data
 }
 \description{
-A wrapper for \code{\link{calcLivestockProductivity}}, that sets the dimnames as required by the feedmodel
+A wrapper for \code{\link[mrcommons]{calcLivestockProductivity}}, that sets the dimnames as required by the feedmodel
 }
 \examples{
 

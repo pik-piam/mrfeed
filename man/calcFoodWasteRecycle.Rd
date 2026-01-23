@@ -22,7 +22,7 @@ calcOutput("FoodWasteRecycle")
 }
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{readWirseniusPHD}},
+\code{\link[madrat]{calcOutput}}, \code{\link{readWirseniusPHD}},
 \code{\link{convertWirseniusPHD}}
 }
 \author{

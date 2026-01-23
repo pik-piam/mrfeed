@@ -18,12 +18,12 @@ based on average values of the specified years.
 }
 \examples{
 
-\dontrun{ 
+\dontrun{
 a <- calcFAOFeed()
 }
 }
 \seealso{
-\code{\link{calcOutput}}
+\code{\link[madrat]{calcOutput}}
 }
 \author{
 Isabelle Weindl

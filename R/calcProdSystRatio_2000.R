@@ -8,7 +8,7 @@
 #' @return MAgPIE[-FEED] data for ProdSystRatio and corresonding weights as a
 #' list of two MAgPIE objects
 #' @author Lavinia Baumstark
-#' @seealso \code{\link{calcOutput}}, \code{\link{readSource}}
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link[madrat]{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 

@@ -24,7 +24,7 @@ calcOutput("RegressionFEED")
 }
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{readWirsenius_FEED}}
+\code{\link[madrat]{calcOutput}}, \code{\link{readWirsenius_FEED}}
 }
 \author{
 Lavinia Baumstark, Isabelle Weindl

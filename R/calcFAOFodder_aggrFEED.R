@@ -1,19 +1,19 @@
 #' Calculate FAO Fodder Crop aggregated to MAgPIE_FEED sectors
-#' 
+#'
 #' Provides the FAOSTAT Fodder data aggregated to three MAgPIE_FEED fodder
 #' categories.
-#' 
-#' 
+#'
+#'
 #' @return FAO fodder data and corresponding weights as a list of two MAgPIE
 #' objects
 #' @author Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{readSource}}
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link[madrat]{readSource}}
 #' @examples
-#' 
-#' \dontrun{ 
-#' 
+#'
+#' \dontrun{
+#'
 #' a <- calcOutput("FAOFodder_aggrFEED")
-#' 
+#'
 #' }
 #' @importFrom utils read.csv
 #' @importFrom madrat readSource toolGetMapping toolAggregate

@@ -22,8 +22,8 @@ calcOutput("LivstSubProduction")
 }
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{readWirseniusSubsystems}},
-\code{\link{readSource}}
+\code{\link[madrat]{calcOutput}}, \code{\link{readWirseniusSubsystems}},
+\code{\link[madrat]{readSource}}
 }
 \author{
 Isabelle Weindl

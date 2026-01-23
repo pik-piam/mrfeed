@@ -6,7 +6,7 @@
 #' @return food waste and corresponding weights as a list of two MAgPIE
 #' objects
 #' @author Isabelle Weindl, Benjamin Leon Bodirsky
-#' @seealso \code{\link{calcOutput}}, \code{\link{calcFoodWasteRecycle}}
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link{calcFoodWasteRecycle}}
 #' @examples
 #' 
 #' \dontrun{ 

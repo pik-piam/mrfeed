@@ -7,7 +7,7 @@
 #' @return FAO Livestock Primary data and corresonding weights as a list of two
 #' MAgPIE objects
 #' @author Ulrich Kreidenweis
-#' @seealso \code{\link{calcOutput}}, \code{\link{readSource}}
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link[madrat]{readSource}}
 #' @examples
 #' \dontrun{
 #' calcOutput("LivePrim")

@@ -23,8 +23,8 @@ calcOutput("ProdFoddr")
 
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{calcFAOFodder_aggrFEED}},
-\code{\link{readSource}}
+\code{\link[madrat]{calcOutput}}, \code{\link{calcFAOFodder_aggrFEED}},
+\code{\link[madrat]{readSource}}
 }
 \author{
 Isabelle Weindl

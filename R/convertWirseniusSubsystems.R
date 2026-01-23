@@ -7,7 +7,7 @@
 #' Available types are: "cattlemeat2milk", "meat2egg" and "feed_beefsys_ratio"
 #' @return magpie object of selected livestock subsystem data on country level
 #' @author Isabelle Weindl
-#' @seealso \code{\link{readSource}}
+#' @seealso \code{\link[madrat]{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 
