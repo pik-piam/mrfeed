@@ -16,10 +16,8 @@ done, besides changes to the countries list. Yield information has been
 removed.
 }
 \examples{
-
-\dontrun{ 
+\dontrun{
 calcOutput("LivePrim")
-
 }
 
 }
