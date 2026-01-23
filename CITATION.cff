@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: If you use this software, please cite it using the metadata from this file.
 type: software
 title: 'mrfeed: MadRat feed data package'
-version: 0.0.12
+version: 0.0.13
 date-released: '2026-01-23'
 abstract: Provides feed related data.
 authors:

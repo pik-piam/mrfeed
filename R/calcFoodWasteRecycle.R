@@ -7,7 +7,7 @@
 #' 
 #' @return MAgPIE object
 #' @author Nele Steinmetz, Isabelle Weindl, Benjamin Leon Bodirsky
-#' @seealso \code{\link{calcOutput}}, \code{\link{readWirseniusPHD}},
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link{readWirseniusPHD}},
 #' \code{\link{convertWirseniusPHD}}
 #' @examples
 #' 

@@ -28,7 +28,7 @@ a <- readSource("WirseniusSubsystems","feed_beefsys")
 
 }
 \seealso{
-\code{\link{readSource}}
+\code{\link[madrat]{readSource}}
 }
 \author{
 Isabelle Weindl

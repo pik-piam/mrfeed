@@ -16,14 +16,14 @@ categories.
 }
 \examples{
 
-\dontrun{ 
+\dontrun{
 
 a <- calcOutput("FAOFodder_aggrFEED")
 
 }
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{readSource}}
+\code{\link[madrat]{calcOutput}}, \code{\link[madrat]{readSource}}
 }
 \author{
 Isabelle Weindl

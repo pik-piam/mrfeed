@@ -9,7 +9,7 @@
 #' @return Productivity, feed requirements and nutrient requirements as well as corresonding weights as a list of two MAgPIE
 #' objects
 #' @author Lavinia Baumstark, Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{readWirsenius_FEED}}
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link{readWirsenius_FEED}}
 #' @examples
 #' 
 #' \dontrun{ 

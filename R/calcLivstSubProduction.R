@@ -7,8 +7,8 @@
 #' @return Livestock Production (WM) and corresonding weights as a list of
 #' two MAgPIE objects
 #' @author Isabelle Weindl
-#' @seealso \code{\link{calcOutput}}, \code{\link{readWirseniusSubsystems}},
-#' \code{\link{readSource}}
+#' @seealso \code{\link[madrat]{calcOutput}}, \code{\link{readWirseniusSubsystems}},
+#' \code{\link[madrat]{readSource}}
 #' @examples
 #' 
 #' \dontrun{ 

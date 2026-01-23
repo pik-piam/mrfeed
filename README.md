@@ -1,6 +1,6 @@
 # MadRat feed data package
 
-R package **mrfeed**, version **0.0.12**
+R package **mrfeed**, version **0.0.13**
 
 [![CRAN status](https://www.r-pkg.org/badges/version/mrfeed)](https://cran.r-project.org/package=mrfeed) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3822087.svg)](https://doi.org/10.5281/zenodo.3822087) [![R build status](https://github.com/pik-piam/mrfeed/workflows/check/badge.svg)](https://github.com/pik-piam/mrfeed/actions) [![codecov](https://codecov.io/gh/pik-piam/mrfeed/branch/master/graph/badge.svg)](https://app.codecov.io/gh/pik-piam/mrfeed) [![r-universe](https://pik-piam.r-universe.dev/badges/mrfeed)](https://pik-piam.r-universe.dev/builds)
 
@@ -38,7 +38,7 @@ In case of questions / problems please contact Isabelle Weindl <weindl@pik-potsd
 
 To cite package **mrfeed** in publications use:
 
-Weindl I, Baumstark L, Bodirsky B, Steinmetz N, Kreidenweis U, Dietrich J (2026). "mrfeed: MadRat feed data package." doi:10.5281/zenodo.3822087 <https://doi.org/10.5281/zenodo.3822087>, Version: 0.0.12, <https://github.com/pik-piam/mrfeed>.
+Weindl I, Baumstark L, Bodirsky B, Steinmetz N, Kreidenweis U, Dietrich J (2026). "mrfeed: MadRat feed data package." doi:10.5281/zenodo.3822087 <https://doi.org/10.5281/zenodo.3822087>, Version: 0.0.13, <https://github.com/pik-piam/mrfeed>.
 
 A BibTeX entry for LaTeX users is
 
@@ -50,6 +50,6 @@ A BibTeX entry for LaTeX users is
   date = {2026-01-23},
   year = {2026},
   url = {https://github.com/pik-piam/mrfeed},
-  note = {Version: 0.0.12},
+  note = {Version: 0.0.13},
 }
 ```

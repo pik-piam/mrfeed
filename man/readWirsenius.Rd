@@ -19,7 +19,7 @@ Read-in an Wirsenius data .csv file as magclass object
 
 }
 \seealso{
-\code{\link{readSource}}
+\code{\link[madrat]{readSource}}
 }
 \author{
 Lavinia Baumstark

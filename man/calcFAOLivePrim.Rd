@@ -22,7 +22,7 @@ calcOutput("LivePrim")
 
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{readSource}}
+\code{\link[madrat]{calcOutput}}, \code{\link[madrat]{readSource}}
 }
 \author{
 Ulrich Kreidenweis

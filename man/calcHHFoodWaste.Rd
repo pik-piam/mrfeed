@@ -20,7 +20,7 @@ a <- calcOutput("HHFoodWaste")
 }
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{calcFoodWasteRecycle}}
+\code{\link[madrat]{calcOutput}}, \code{\link{calcFoodWasteRecycle}}
 }
 \author{
 Isabelle Weindl, Benjamin Leon Bodirsky

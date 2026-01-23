@@ -1,8 +1,8 @@
 #' Calculate Feed Requirements
 #' 
-#' A wrapper for \code{\link{calcLivestockProductivity}}, that sets the dimnames as required by the feedmodel
+#' A wrapper for \code{\link[mrcommons]{calcLivestockProductivity}}, that sets the dimnames as required by the feedmodel
 #' 
-#' @param future See \code{\link{calcLivestockProductivity}}
+#' @param future See \code{\link[mrcommons]{calcLivestockProductivity}}
 #' 
 #' @return LivestockProductivity data
 #' @author David Hötten

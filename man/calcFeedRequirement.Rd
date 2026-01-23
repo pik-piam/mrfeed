@@ -24,8 +24,8 @@ calcOutput("FeedRequirement")
 }
 }
 \seealso{
-\code{\link{calcOutput}}, \code{\link{calcRegressionFEED}},
-\code{\link{readSource}}
+\code{\link[madrat]{calcOutput}}, \code{\link{calcRegressionFEED}},
+\code{\link[madrat]{readSource}}
 }
 \author{
 Lavinia Baumstark, Isabelle Weindl

@@ -18,7 +18,7 @@ Read-in an Wirsenius_FEED data .csv files as one magclass object
 }
 }
 \seealso{
-\code{\link{readSource}}
+\code{\link[madrat]{readSource}}
 }
 \author{
 Lavinia Baumstark
